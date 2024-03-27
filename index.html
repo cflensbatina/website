@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Diary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Investment Diary</h1>
+    <p>Document your investment decisions, portfolio performance, and lessons learned along the way.</p>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Welcome to the Investment Diary! This website is your personal space to record and reflect on your investment journey. Whether you're a beginner or an experienced investor, this diary is here to help you track your decisions, analyze your portfolio performance, and learn from your experiences.</p>
+    </section>
+    <section id="entries">
+      <h2>Entries</h2>
+      <div class="entry">
+        <h3>Entry Title 1</h3>
+        <p>Date: January 1, 2024</p>
+        <p>Investment Decision: Bought 100 shares of XYZ Corp.</p>
+        <p>Portfolio Performance: XYZ Corp. stock increased by 5%.</p>
+        <p>Lessons Learned: Always conduct thorough research before making investment decisions.</p>
+      </div>
+      <div class="entry">
+        <h3>Entry Title 2</h3>
+        <p>Date: February 15, 2024</p>
+        <p>Investment Decision: Sold 50 shares of ABC Inc.</p>
+        <p>Portfolio Performance: ABC Inc. stock decreased by 10%.</p>
+        <p>Lessons Learned: Timing is crucial in selling investments.</p>
+      </div>
+    </section>
+    <section id="add-entry">
+      <h2>Add New Entry</h2>
+      <form action="submit_entry.php" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="decision">Investment Decision:</label>
+        <textarea id="decision" name="decision" required></textarea>
+        <label for="performance">Portfolio Performance:</label>
+        <textarea id="performance" name="performance" required></textarea>
+        <label for="lessons">Lessons Learned:</label>
+        <textarea id="lessons" name="lessons" required></textarea>
+        <button type="submit">Add Entry</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Investment Diary</p>
+  </footer>
+</body>
+</html>
