@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UX Designer for Luxury Brands</title>
+    <h1>UX Designer for Luxury Brands</h1>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
